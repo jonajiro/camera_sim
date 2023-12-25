@@ -62,7 +62,7 @@ class PlotObject(gl.GLViewWidget):
         self.color_data = np.ones([len(self.pos_data),3])
         self.color_data[:,2] = self.color_data[:,2]*0
         self.color_data[:,1] = self.color_data[:,1]*0
-        self.setWindowTitle('Pick 3D points')
+        self.setWindowTitle('Camera sim')
 
     def mousePressEvent(self, ev):
         super(PlotObject, self).mousePressEvent(ev)
